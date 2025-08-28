@@ -1,4 +1,6 @@
-# 🍷 Treat Yourself - A Garmin watch widget to help you manage your caloric intake. 🍷
+# 🍷 Treat Yourself ~
+
+> A Garmin watch widget to help you manage your caloric intake. 🍷
 
 ![screenshot](res/banner.png)
 
