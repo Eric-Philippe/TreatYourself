@@ -1,0 +1,14 @@
+# Chemins vers tes sources et ressources
+project.manifest = manifest.xml
+sourcePath = source
+resourcePath = resources
+
+# Infos de l’application
+id = com.ericp.treatyourself
+name = TreatYourself
+version = 1.0.0
+type = widget
+entry = TreatYourselfApp
+
+# Produits supportés
+products = venu2s

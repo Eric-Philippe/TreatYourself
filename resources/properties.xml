@@ -1,0 +1,4 @@
+<properties>
+    <property id="targetBeforeTreat" type="number">1600</property>
+    <property id="targetDeficit" type="number">500</property>
+</properties>

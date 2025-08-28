@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.targetBeforeTreat" title="@Strings.targetBeforeTreat_title">
+        <settingConfig type="numeric" errorMessage="@Strings.numeric_error_message" />
+    </setting>
+    <setting propertyKey="@Properties.targetDeficit" title="@Strings.targetDeficit_title">
+        <settingConfig type="numeric" errorMessage="@Strings.numeric_error_message" />
+    </setting>
+</settings>
