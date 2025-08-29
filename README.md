@@ -11,11 +11,32 @@ By tracking your physical activity and providing personalized valuations. Treat 
 
 Get yourself the app at the [Connect IQ Store](https://apps.garmin.com/apps/31d07127-3b03-4ff4-bea9-15d297efeacf).
 
+## Features
+
+- **Personalized Caloric Valuation**: Calculates your daily caloric needs based on your age, weight, height, activity level
+- **Activity Tracking**: Monitors your daily steps and active minutes to adjust your caloric needs dynamically
+- **Daily Treat Suggestions**: Provides a daily treat suggestion based on your activity level
+- **Dynamic Input Field**: Allows you to input your deficit target and the target calories for your treat
+- **Estimated calorie Burn**: Estimates calories at the very end of the day based on your activity level
+
+It's **free** and will always be, I'd be glad to hear your feedback and feature requests!
+
 ## Tested Devices
 
 - Venu 2
 - Venu 2 Plus
 - Venu 2s
+
+## Supported Devices
+
+More than 80 devices are supported, including:
+
+- Venu 2 series
+- Venu 3 series
+- Fenix 7 series
+- Epix 2 series
+
+Check out the [manifest.xml](manifest.xml) file for the full list of supported devices.
 
 ## Requirements
 
