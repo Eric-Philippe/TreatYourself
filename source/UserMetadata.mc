@@ -68,18 +68,22 @@ class UserMetadata {
     // Get current active minutes from the watch
     public static function getCurrentActiveMinutes() as Number {
         var info = ActivityMonitor.getInfo();
-        return info.activeMinutesWeek != null ? info.activeMinutesWeek.total : 0;
+        return info.activeMinutesDay != null ? info.activeMinutesDay.total : 0;
     }
     
     // Get complete activity info from the watch
     public static function getActivityInfo() as Dictionary {
         var info = ActivityMonitor.getInfo();
         var steps = info.steps != null ? info.steps : 0;
-        var activeMinutes = info.activeMinutesWeek != null ? info.activeMinutesWeek.total : 0;
-        
+        var activeMinutes = info.activeMinutesDay != null ? info.activeMinutesDay.total : 0;
+
         return {
             "steps" => steps,
             "activeMinutes" => activeMinutes
         };
+    }
+
+    public static function intoString() as String {
+        return "UserMetadata{age=" + getAge().toString() + ", height=" + getHeight().toString() + ", weight=" + getWeight().toString() + ", sex=" + getSex().toString() + "}";
     }
 }

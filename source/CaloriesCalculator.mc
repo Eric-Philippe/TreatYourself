@@ -1,6 +1,7 @@
 import Toybox.Lang;
 import Toybox.Time;
 import Toybox.Math;
+import Toybox.System;
 
 class CaloriesCalculator {
     
@@ -26,7 +27,6 @@ class CaloriesCalculator {
         } else {
             bmr = (10 * UserMetadata.getWeight()) + (6.25 * UserMetadata.getHeight()) - (5 * UserMetadata.getAge()) + 5;
         }
-        
         return bmr;
     }
     
