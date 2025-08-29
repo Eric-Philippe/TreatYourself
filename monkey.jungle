@@ -6,7 +6,7 @@ resourcePath = resources
 # Infos de l’application
 id = com.ericp.treatyourself
 name = TreatYourself
-version = 1.0.0
+version = 1.1.0
 type = widget
 entry = TreatYourselfApp
 
