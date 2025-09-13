@@ -15,8 +15,8 @@ class CaloriesCalculator {
     };
 
     // MET values for different activities
-    private static var WALKING_MET as Float = 2.3; // Average walking MET
-    private static var ACTIVE_MINUTES_MET as Float = 4.2; // Average MET for active minutes
+    private static var WALKING_MET as Float = 3.8; // Average walking MET
+    private static var ACTIVE_MINUTES_MET as Float = 5.0; // Average MET for active minutes
     
     // Calculate BMR using Mifflin-St Jeor equation
     private static function calculateBMR() as Float {
